@@ -1,0 +1,29 @@
+/*
+- .xxx -> for class. Used in CSS - # -> for id. USED in JS
+- fonts:
+    - fosnsawsome
+    - fonts.booble.com
+*/
+h1{
+    color: red;
+}
+div{
+    background-color: rgba(229, 148, 148, 1);
+}
+p {
+    font-family: 'Irish Grover';
+}
+.calculadora{
+    background-color: gray;
+}
+.pantalla{
+    background-color: rgba(181,14,14,1);
+}
+.pantalla p{
+    color: #000;
+}
+.grid-keyboard{
+    display: grid;
+    gap: 15px 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
