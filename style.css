@@ -13,8 +13,20 @@ div{
 p {
     font-family: 'Irish Grover';
 }
+.title{
+    border-radius: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*
+    text-align: center;
+    vertical-align: middle;
+    */
+    height: 40px;
+}
 .calculadora{
-    background-color: gray;
+    
+    border: 10px solid #D9D9D9;
 }
 .pantalla{
     background-color: rgba(181,14,14,1);
@@ -25,5 +37,21 @@ p {
 .grid-keyboard{
     display: grid;
     gap: 15px 15px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Irish Grover';
 }
+/*
+.grid-button{
+    background-color: #222;
+    font-family: 'Irish Grover';
+}
+*/
+button{
+    background-color: #c72020;
+    font-family: 'Irish Grover';
+    color: #FFF;
+}
+
+/*
+- Por que en hex aparecen 6 caracteres ? ej. #D9D9D9;
+*/
