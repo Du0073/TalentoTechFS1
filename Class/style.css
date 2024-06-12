@@ -1,0 +1,36 @@
+/*
+- .xxx -> for class. Used in CSS - # -> for id. USED in JS
+- fonts:
+    - fosnsawsome
+    - fonts.booble.com
+*/
+h1{
+    color: red;
+}
+.title{
+    border-radius: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.calculadora{
+    background-color: gray;
+    width: 200px;
+}
+.pantalla{
+    background-color: aqua;
+    border: 15px;
+    border-color: red;
+}
+.pantalla p{
+    color: blue;
+}
+.teclado{
+    display: flex;
+    display: inline-block;
+}
+.teclado button{
+    background-color: blue;
+    height: 70px;
+}
