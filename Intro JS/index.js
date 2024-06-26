@@ -8,22 +8,23 @@ function random(number){
 btn.addEventListener("click", ()=>{
   const rdnColor = `rgb(${random(255)},${random(255)}, ${random(255)})`
   
-  const redColor = random(255)
-  const greenColor = random(100)
-  const blueColor = random(100)
+  // const redColor = random(255)
+  // const greenColor = random(100)
+  // const blueColor = random(100)
   
   console.log(rdnColor)
-  /*
-  console.log(redColor,greenColor,blueColor)
-  document.body.style.backgroundColor = `rgb(${redColor},
-                      ${greenColor},${blueColor})`
-  */
+  
+  // console.log(redColor,greenColor,blueColor)
+  // document.body.style.backgroundColor = `rgb(${redColor},
+  //                     ${greenColor},${blueColor})`
+  
   document.body.style.backgroundColor = rdnColor;
 })
 
-btn.addEventListener("click", ()=>{
-  document.body.style.backgroundColor = `rgb(${random(255)},${random(255)}, ${random(255)})`;
-})
+/*in one line
+// btn.addEventListener("click", ()=>{
+//   document.body.style.backgroundColor = `rgb(${random(255)},${random(255)}, ${random(255)})`;
+// })
 
 
 
