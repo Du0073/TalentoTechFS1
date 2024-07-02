@@ -25,16 +25,15 @@ header{
   text-align: center;
   display: flex;
   justify-content: space-between;
-
+}
+.p_gray{
+  color: gray;
 }
 /*---------------  HERO  ----------------*/
 .hero{
   background-color: #ffc;
   padding: 50px 20px;
   text-align: center;
-}
-.p_hero{
-  color: gray;
 }
 .hero button{
   padding: 12px 25px;
@@ -43,11 +42,12 @@ header{
 .features{
   background-color: #eed;
   display: grid;
-  justify-content: space-between;
-  padding: 50px 20px;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 20px;
 }
 .feature{
-  background-color: rgb(202, 78, 233);
+  /*background-color: rgb(202, 78, 233);*/
   margin: 20px 0;
   padding: 20px;
   border-radius: 10px;
