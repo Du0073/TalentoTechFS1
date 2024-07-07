@@ -21,7 +21,8 @@ botones.forEach(boton => {
     if(botonApretado == "AC"){
       pantalla.textContent = "0"
       return
-    }else if(botonApretado == "del"){
+    }
+    else if(botonApretado == "del"){
       if(pantalla.textContent.length == 1){
         pantalla.textContent = "0"
         return
@@ -29,11 +30,21 @@ botones.forEach(boton => {
         pantalla.textContent = pantalla.textContent.slice(0,-1)
          return
       }
-    }else{
+    }
+    else if(botonApretado == "="){
+      try {
+        pantalla.textContent = eval(pantalla.textContent)
+      } catch (error) {
+        pantalla.textContent = "Error!"
+      }
+    }
+    else{
       if(pantalla.textContent == "0"){
         pantalla.textContent = botonApretado
+        return
       }else{
         pantalla.textContent = pantalla.textContent + botonApretado
+        return
       }
     }
     
