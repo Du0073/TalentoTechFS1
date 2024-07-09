@@ -53,7 +53,7 @@ p {
 button:hover{
     background-color: rgba(230,62,62,1);
 }
-.grid-button:nth-child(4){
+.grid-screen{
     grid-column: 4/6;
     grid-row: 1/5;
     border-radius: 15px;
@@ -61,7 +61,6 @@ button:hover{
     border-style: solid;
     border-width: thin medium;
     background-color: rgba(181,14,14,1);
-}
-.grid-button-black{
-    background-color: #000;
+    font-size: 2rem;
+    padding: 10px;
 }
