@@ -32,11 +32,26 @@ header{
   background-color: aqua;
   padding: 50px 20px;
 }
+ul{
+  list-style: none;
+}
+form{
+  background-color: gray;
+}
+label{
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
 footer{
   background-color: black;
   color: aliceblue;
 }
-/*responsive*/
+.formulario{
+  display: flex;
+  flex-direction: column;
+}
+/*Estilos responsive*/
 @media(max-width:600px){
   .features{
     flex-direction: column;

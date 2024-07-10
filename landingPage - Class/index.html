@@ -12,6 +12,7 @@
     </header>
     <section class="hero">
       <h2>Sección del hero</h2>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
     </section>
     <section class="features">
       <div class="feature">
@@ -27,9 +28,34 @@
         <p>excepturi repudiandae quasi ad illum neque </p>
       </div>
     </section>
+    
     <section class="contact">
-        <h2>Contact</h2>
-        <p>Qui doloribus! Veritatis inventore impedit aut sunt beatae?</p>
+      <h2>Contact</h2>
+      <div class="formulario">
+        <ul>
+          <form action="" method="post">
+            <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+            <label for="mail">Email</label>
+            <input type="text" name="mail" id="user_mail" value="@gmail">
+            </li>
+            <li>
+              <label for="msg">Mensaje</label>
+              <textarea name="user_msg" id="msg">Deja tu mensaje</textarea>
+              <!--<input type="text" name="user_msg" id="msg">-->
+            </li>
+            <li>
+              <button type="submit">Enviar mensaje</button>
+            </li>
+          </form> 
+
+        </ul>
+         
+      </div>
+      
     </section>
     <footer>&copy; 2024 Developed by Eduardo Perez, Todos los derechos reservados</footer>
 </body>
