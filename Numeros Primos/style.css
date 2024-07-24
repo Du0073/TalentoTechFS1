@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(50,50,50);
+}
+.container{
+    background-color: #e63f3f;
+    box-shadow: #e63f3f;
+}
+.btn{
+    background-color: rgb(66, 66, 7);
+    color: #ddd;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px 40px;
+}
+input{
+    font-size: 20px;
+    height: 40px;
+    border-radius: 15px;
+    border: 0;
+}
