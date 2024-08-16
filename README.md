@@ -1,4 +1,6 @@
 # Carpeta del curso de TalentoTech - FullStack 1
-Este repositorio contiene varias cosas hechas en el curso de Full Stack 1 tomado en el programa de Talento Tech: Notas y tareas personales, código hecho durante las clases, el proyecto de la calculadora y demás material.
+Código realizado en el curso de Full Stack 1 de Talento Tech. Entre otra cosas:
+- Calculadora
+- Landing page
 ### license
 MIT License
