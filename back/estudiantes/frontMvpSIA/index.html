@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vistas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ind" id="ind">
+    <h1>ÍNDICE</h1>
+    <ul>
+      <li><a href="#view">Ver estudiantes</a></li>
+      <li><a href="#create">Crear estudiantes</a></li>
+    </ul>
+  </div>
+  
+  <div class="view" id="view">
+    <h1>Ver estudiantes</h1>
+    <p><a href="#ind">Índice</a></p>
+    <button id="btn_view">ver estudiantes</button>
+  </div>
+
+  <div class="create" id="create">
+    <h1>Crear estudiantes</h1>
+    <p><a href="#ind">Índice</a></p>
+    <form action="#" method="post">
+      <div>
+        <label for="name">Nombre:</label>
+        <input type="text" id="form_name" required>
+      </div>
+      
+      <div>
+        <label for="subjects">Materias</label>
+        <datalist id="subjects">
+          <option value="Matemáticas">
+        </datalist>
+      </div>
+    </form>
+    
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

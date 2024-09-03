@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: scroll;
+}
+
+header{
+    background-color: rgba(26, 35, 126, 0.5);
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a:hover{
+    color: #90caf9;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    scroll-snap-align: start;
+}
+
+#home{
+    background-color: #e3f2fd;
+}
+
+#about{
+    background-color: #bbdefb;
+}
+
+#projects{
+    background-color: #90caf9;
+}
+
+#contact{
+    background-color: #64b5f6;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1,h2{
+    margin-bottom: 1rem;
+    color: #1a237e
+}
+
+.btn{
+    display: inline-block;
+    background-color: #1a237e;
+    color:#fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #303f9f;
+}
+
+.project{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+@media(max-width: 768px){
+    header{
+        padding: 0.5rem;
+    }
+    /*
+    nav{
+        justify-content: center;
+    }
+    */
+    /*It should be a double nav bar, as last nav bar I did*/
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li{
+        margin: 5px 0;
+    }
+    section{
+        padding: 1rem;
+    }
+
+}
+
